@@ -1,19 +1,21 @@
 # CPU Scheduling & Optimization Simulator
 
-## Overview
-This project is a CPU scheduling simulator written in C. It models how an operating system schedules processes and compares different scheduling strategies using standard performance metrics.
+A system-level CPU scheduling simulator implemented in C that models and compares multiple scheduling algorithms. The project performs detailed performance analysis using metrics such as waiting time, turnaround time, and throughput to identify the most efficient scheduling strategy.
 
 The simulator supports FCFS, Round Robin, Priority Scheduling with aging, SJF, and optimization/analysis modes. It records execution intervals for a Gantt chart and computes metrics such as waiting time, turnaround time, and response time.
 
-## Features
-- First Come First Serve (FCFS) scheduling
-- Round Robin scheduling with user-defined time quantum
-- Preemptive Priority Scheduling with optional aging
-- Shortest Job First (SJF) scheduling
-- Optimize mode to compare algorithms and choose the best performer
-- Gantt chart-style execution timeline
-- Average waiting time, turnaround time, and response time analysis
-- Modular multi-file C structure using headers and source files
+## Key Features
+- Implementation of FCFS, Round Robin, Priority Scheduling (with aging)
+- Performance analysis using waiting time, turnaround time, and throughput
+- Gantt chart simulation for execution visualization
+- Optimization mode to compare scheduling strategies
+- Modular multi-file architecture with no global variables
+
+## Key Highlights
+- Demonstrates core operating system concepts through practical implementation
+- Compares algorithm efficiency under different workloads
+- Designed with clean modular architecture and no global variables
+- Bridges theoretical scheduling concepts with real-world simulation
 
 ## Tech Stack
 - C programming
@@ -41,7 +43,7 @@ make
 
 ## How to Run
 ```bash
-./jackfruit
+./a.out
 ```
 
 ## Input Format
