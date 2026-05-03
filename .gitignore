@@ -1,0 +1,11 @@
+.env
+.env.local
+.DS_Store
+__MACOSX/
+*.exe
+*.out
+*.o
+.vscode/
+.idea/
+jackfruit
+*.dSYM/
